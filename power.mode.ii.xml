@@ -1,0 +1,12 @@
+<application>
+  <component name="PowerModeII">
+    <option name="blueTo" value="0" />
+    <option name="colorAlpha" value="255" />
+    <option name="frameRate" value="60" />
+    <option name="greenTo" value="175" />
+    <option name="redFrom" value="0" />
+    <option name="sparkCount" value="45" />
+    <option name="sparkLife" value="1998" />
+    <option name="sparkSize" value="5" />
+  </component>
+</application>

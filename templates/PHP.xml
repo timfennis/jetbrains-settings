@@ -1,0 +1,41 @@
+<templateSet group="PHP">
+  <template name="dd" value="\Doctrine\Common\Util\Debug::dump($END$);" description="Doctrine debug" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="orm" value="use Doctrine\ORM\Mapping as ORM;" description="use orm mapping" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bart" value="@author Bart Malestein &lt;bart@isset.nl&gt;" description="Bart" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP Comment" value="true" />
+    </context>
+  </template>
+  <template name="exp" value="Criteria::expr()-&gt;$END$" description="Create a criteria expression" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="crit" value="$criteria = Criteria::create();&#10;$END$" description="Creates criteria" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="strict" value="declare(strict_types=1);" description="Declare strict types" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP String Literal" value="false" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP Expression" value="false" />
+      <option name="PHP" value="true" />
+      <option name="PHP Class Member" value="false" />
+    </context>
+  </template>
+  <template name="test" value="/** &#10; * @test&#10; */&#10;public function it_should_$END$()&#10;{&#10;&#10;}" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP Class Member" value="true" />
+    </context>
+  </template>
+</templateSet>

@@ -1,0 +1,7 @@
+<templateSet group="Twig">
+  <template name="trans" value="{{ '$END$' | trans }}" description="Create 1 inline block of text with a trans tag behind it" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+</templateSet>
