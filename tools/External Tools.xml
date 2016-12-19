@@ -1,7 +1,7 @@
 <toolSet name="External Tools">
   <tool name="csfixer" description="PHP CS Fixer" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="false" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
-      <option name="COMMAND" value="php-cs-fixer" />
+      <option name="COMMAND" value="C:\Users\tim\AppData\Roaming\Composer\vendor\bin\php-cs-fixer.bat" />
       <option name="PARAMETERS" value="fix $FileDir$/$FileName$ --config $ProjectFileDir$/.php_cs" />
       <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
     </exec>
