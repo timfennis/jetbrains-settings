@@ -9,6 +9,7 @@
       <mapping pattern="core" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern="videofilters" type="PLAIN_TEXT" />
+      <mapping pattern="simulation" type="PLAIN_TEXT" />
       <mapping pattern="resetdb" type="PLAIN_TEXT" />
       <mapping pattern="Dockerfile-dev" type="PLAIN_TEXT" />
       <mapping ext="kv" type="PLAIN_TEXT" />
