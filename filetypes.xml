@@ -4,13 +4,13 @@
     <extensionMap>
       <mapping pattern="module_stats" type="PLAIN_TEXT" />
       <mapping pattern="update_options_db" type="PLAIN_TEXT" />
-      <mapping pattern="codestandards" type="PLAIN_TEXT" />
       <mapping pattern="rebuild_regions" type="PLAIN_TEXT" />
+      <mapping pattern="codestandards" type="PLAIN_TEXT" />
       <mapping pattern="core" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern="videofilters" type="PLAIN_TEXT" />
       <mapping pattern="resetdb" type="PLAIN_TEXT" />
-      <mapping ext="csv" type="PLAIN_TEXT" />
+      <mapping pattern="Dockerfile-dev" type="PLAIN_TEXT" />
       <mapping ext="kv" type="PLAIN_TEXT" />
       <mapping ext="cer" type="PLAIN_TEXT" />
       <mapping ext="pfx" type="PLAIN_TEXT" />
