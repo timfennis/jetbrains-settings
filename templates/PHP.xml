@@ -26,14 +26,14 @@
   </template>
   <template name="strict" value="declare(strict_types=1);" description="Declare strict types" toReformat="false" toShortenFQNames="true">
     <context>
-      <option name="PHP String Literal" value="false" />
-      <option name="PHP Comment" value="false" />
-      <option name="PHP Expression" value="false" />
       <option name="PHP" value="true" />
       <option name="PHP Class Member" value="false" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP Expression" value="false" />
+      <option name="PHP String Literal" value="false" />
     </context>
   </template>
-  <template name="test" value="/** &#10; * @test&#10; */&#10;public function it_should_$END$()&#10;{&#10;&#10;}" toReformat="false" toShortenFQNames="true">
+  <template name="test" value="/** &#10; * @test&#10; */&#10;public function it_should_$END$()&#10;{&#10;&#10;}" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="PHP Class Member" value="true" />
     </context>
